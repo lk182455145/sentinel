@@ -1,2 +1,10 @@
 server:
   port: 8888
+
+spring:  application:    name: sentinel
+  profiles:    active:    - dev
+  
+app:  id: sentinel
+apollo:  meta: http://192.168.163.104:8080
+  bootstrap:    enabled: true
+    
